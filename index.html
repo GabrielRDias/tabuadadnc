@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <header>
+        <a href="http://escoladnc.com"><img src="dnc-1024x499.png" alt="erro" width="100px" ></a>
+        <h1> Tabuada </h1>
+    </header>
+    
+    <section>
+       <div>
+            <p>
+                Qual a tabuada que você deseja saber? <br>
+                <input type="number" class="form" required id="num">
+            </p>
+            <p>
+                Até que número você quer saber? <br>
+                <input type="number" class="form" required id="end">
+            </p>
+            <p>
+                <input type="button" value="Calcular" id="button" onclick="tabuada()">
+            </p>
+            
+       </div>
+       <div id="resposta">
+            <p>
+                Preencha os valores por gentileza
+            </p>
+       </div>
+    </section>
+    <script src="funcionalidade.js"></script>
+</body>
+</html>
